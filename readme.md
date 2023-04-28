@@ -1,3 +1,5 @@
+感谢chatGLM-6b模型官方的开源https://github.com/THUDM/ChatGLM-6B
+
 这只是个把qq聊天记录导出并提取成一问一答的训练资料的python脚本
 
 ![QQ截图20230428140840](https://user-images.githubusercontent.com/132042689/235070575-3a2652d9-a4d4-48fb-a2b3-e210a33eee53.png)
