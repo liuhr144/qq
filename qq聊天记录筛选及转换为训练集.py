@@ -25,7 +25,7 @@ with open('test1.txt', 'r',encoding="utf-8") as f :#这里要改成你聊天记�
         if len(parts)>10:
             if parts[4]=="-"and parts[7]=="-"and parts[10]==" ":
                 tag2 = num
-        if '刘浩然' in line:#这里要改成你的qq昵称
+        if '你的昵称' in line:#这里要改成你的qq昵称
             if tag2==num:
                 tag1 = num
             #anwser = line.strip().split('')#另一种查找方式，效果不如现在的。
