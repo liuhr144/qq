@@ -19,7 +19,7 @@
 
 ![QQ截图20230428142557](https://user-images.githubusercontent.com/132042689/235071304-947d88f5-f67a-4b82-9146-e1dc2085118b.png)
 
-应用官方提供的ptuning未调后，效果如图：
+应用官方提供的ptuning微调后，效果如图：
 
 ![IMG_6988](https://user-images.githubusercontent.com/132042689/235071566-31be4332-3af3-400a-acbf-514e76747962.PNG)
 
