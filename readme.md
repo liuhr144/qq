@@ -7,6 +7,8 @@
 
 需要把你的qq聊天记录导出为txt文件,并将文件拷贝到目录里，且将文件名改为test1.txt（或者改脚本内的名字），随后按照脚本内的注释调整参数运行。
 
+以chatGMLM-6b的微调数据集格式为例，你可以按脚本内注释换其他格式
+
 最后你的记录会导出到train.json以及dev.json内，继续执行微调就行。
 
 关于效果
@@ -22,3 +24,5 @@
 ![IMG_6989](https://user-images.githubusercontent.com/132042689/235071599-7c3149e2-bb36-4b6f-ba2d-0a28f1b0ea8d.PNG)
 
 只能说还凑合吧，但确实挺有意思。
+
+再次感谢chatGLM-6b官方的开源https://github.com/THUDM/ChatGLM-6B
