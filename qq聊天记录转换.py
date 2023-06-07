@@ -8,9 +8,9 @@ with open('data/my_qq_data/全部消息记录.txt', 'r', encoding='utf-8') as f:
 for line in content.splitlines():
     if line.strip() == '================================================================':
         content = content.replace(line, '')
-    if "消息分组:系统消息" in line:
+    if "消息分组" in line:
         content = content.replace(line, '')
-    if "消息对象:腾讯服务" in line:
+    if "消息对象" in line:
         content = content.replace(line, '')
 
 pattern = r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} .+?\n.+?(?=\n\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}|\Z)'
