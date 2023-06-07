@@ -35,7 +35,7 @@ for msg in messages:
     data_messages.append(data)
 
 #填写你的昵称名字
-my_name = '【咸鱼猫】jerryliang'
+my_name = ''
 old_msg = data_messages[0]
 new_data = []
 for msg in data_messages:
